@@ -16,4 +16,4 @@ async function getWeather(geoLocation) {
 	return placeData;
 }
 
-exports.getWeather = getWeather;
+module.exports = { getWeather };
